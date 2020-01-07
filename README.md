@@ -1,3 +1,20 @@
+### Setup
+To use the project just type the following commands
+```
+git clone git@github.com:Deftunk/goJobTest.git
+npm install
+npm test
+npm run test:watch
+```
+
+#### or
+```
+git clone git@github.com:Deftunk/goJobTest.git
+yarn 
+yarn test
+yarn test:watch
+```
+
 ## Preliminary test
 This is the preliminary test in the Gojob recruitment process.
 You’ll be asked to develop a little function and to send us the code by mail.

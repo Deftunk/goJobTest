@@ -8,6 +8,7 @@ const findClosestToZero = (numbers: number[]): number => {
 
 const closestFromZero = (number1: number, number2: number): boolean => {
     return Math.abs(number1) < Math.abs(number2) || Math.abs(number2) === 0
+    
 }
 
 export { findClosestToZero };
