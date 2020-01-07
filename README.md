@@ -13,7 +13,7 @@ if the closest number in input could be either negative or positive, the functio
 if the input array is undefined or empty, the function returns 0
 Examples:
 
-when input is [8, 5, 10] it must returns 5
-when input is [5, 4, -9, 6, -10, -1, 8] it must return -1
-when input is [8, 2, 3, -2] it must return 2
+- when input is [8, 5, 10] it must returns 5
+- when input is [5, 4, -9, 6, -10, -1, 8] it must return -1
+- when input is [8, 2, 3, -2] it must return 2
 
