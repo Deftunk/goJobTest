@@ -8,9 +8,9 @@ We are convinced that testing is the key to productivity and quality, so if you 
 ### Closest to zero
 Write a function “closestToZero” described by the following specification:
 
-given an array of positive and negative integers, it returns the closest number to zero
-if the closest number in input could be either negative or positive, the function returns the positive one
-if the input array is undefined or empty, the function returns 0
+- given an array of positive and negative integers, it returns the closest number to zero
+- if the closest number in input could be either negative or positive, the function returns the positive one
+- if the input array is undefined or empty, the function returns 0
 Examples:
 
 - when input is [8, 5, 10] it must returns 5
