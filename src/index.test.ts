@@ -22,5 +22,9 @@ describe('Oh ! Looks like there is a new project here', () => {
         it('should return 1 for [5, 4, -9, 6, -10, -1, 8]', () => {
             expect(findClosestToZero([5, 4, -9, 6, -10, -1, 8])).toBe(-1);
         });
+
+        it('should return 2 for [8, 2, 3, -2]', () => {
+            expect(findClosestToZero([5, 4, -9, 6, -10, -1, 8])).toBe(-1);
+        });
     })
 });
