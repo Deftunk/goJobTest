@@ -19,12 +19,21 @@ describe('Oh ! Looks like there is a new project here', () => {
         it('should return 5 for [8, 5, 10]', () => {
             expect(findClosestToZero([8, 5, 10])).toBe(5);
         })
+        
         it('should return 1 for [5, 4, -9, 6, -10, -1, 8]', () => {
             expect(findClosestToZero([5, 4, -9, 6, -10, -1, 8])).toBe(-1);
         });
 
         it('should return 2 for [8, 2, 3, -2]', () => {
-            expect(findClosestToZero([5, 4, -9, 6, -10, -1, 8])).toBe(-1);
+            expect(findClosestToZero([8, 2, 3, -2])).toBe(2);
+        });
+
+        it('should return 2 for [8, -2, 3, 2]', () => {
+            expect(findClosestToZero([8, -2, 3, 2])).toBe(2);
+        });
+
+        it('should return 2 for [8, -2, 3, 2, 1, -1, -4, 4]', () => {
+            expect(findClosestToZero([8, -2, 3, 2, 1, -1, -4, 4])).toBe(1);
         });
     })
 });
